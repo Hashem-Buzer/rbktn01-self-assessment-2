@@ -33,5 +33,7 @@ var Tree = function(value) {
   this.children = [];
 };
 
-
+var addChild = function(val) {
+	var newChild = Tree(val);
+}
 
